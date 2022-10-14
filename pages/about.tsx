@@ -1,15 +1,14 @@
 import type { NextPage } from "next";
-import Head from "next/head";
+import HeadComponent from "../components/HeadComponent/HeadComponent";
 import Layout from "../components/Layout/Layout";
 
 const About: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>Lenka Shynkarova - About</title>
-        <meta name="description" content="About Lenka Shynarova" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <HeadComponent
+        title="Lenka Shynkarova - About"
+        content="About Lenka Shynarova"
+      />
 
       <Layout>
         <div>About</div>
