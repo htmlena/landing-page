@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Layout from "../components/Layout/Layout";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <Layout>
         <h1>Lenka Shynkarova</h1>
-
         <p>This is a very discriptive explanation of Lenka's experience</p>
-      </main>
+      </Layout>
 
       <footer></footer>
     </div>
