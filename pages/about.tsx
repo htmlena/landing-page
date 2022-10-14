@@ -1,19 +1,17 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import HeadComponent from "../components/HeadComponent/HeadComponent";
 import Layout from "../components/Layout/Layout";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <div>
       <HeadComponent
-        title="Lenka Shynkarova"
-        content="Lenka Shynkarova's landing page"
+        title="Lenka Shynkarova - About"
+        content="About Lenka Shynarova"
       />
 
       <Layout>
-        <h1>Lenka Shynkarova</h1>
-        <p>This is a very discriptive explanation of Lenka's experience</p>
+        <div>About</div>
       </Layout>
 
       <footer></footer>
@@ -21,4 +19,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default About;
