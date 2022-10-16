@@ -6,17 +6,23 @@ const Navbar = () => {
       <ul className="flex flex-row gap-x-4">
         <li className="uppercase">
           <Link href="/">
-            <a className="hover:border-b hover:border-white pb-1">Home</a>
+            <a className="hover:border-b hover:border-white hover:border-dotted py-1">
+              Home
+            </a>
           </Link>
         </li>
         <li className="uppercase">
           <Link href="/about">
-            <a className="hover:border-b hover:border-white pb-1">About Me</a>
+            <a className="hover:border-b hover:border-white hover:border-dotted py-1">
+              About Me
+            </a>
           </Link>
         </li>
         <li className="uppercase">
           <Link href="/work">
-            <a className="hover:border-b hover:border-white pb-1">My work</a>
+            <a className="hover:border-b hover:border-white hover:border-dotted py-1">
+              My work
+            </a>
           </Link>
         </li>
       </ul>
