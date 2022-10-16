@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <Layout>
         <h1>Lenka Shynkarova</h1>
-        <p>This is a very discriptive explanation of Lenka's experience</p>
+        <p>This is a very descriptive explanation of Lenka's experience</p>
       </Layout>
 
       <footer></footer>
