@@ -4,7 +4,7 @@ import mainPhoto from "../../public/main-photo.jpg";
 
 const HomeTeaser = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 mt-14 md:mt-20">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
       <div className="md:max-w-[50%]">
         <h1 className="text-3xl">Lenka Shynkarova</h1>
         <p className="mt-6 max-w-md">

@@ -10,7 +10,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col bg-background text-white">
       <Header />
-      <main className="grow px-5 md:px-6">
+      <main className="grow px-5 md:px-0 my-0 mx-auto max-w-screen-md">
         <div className="max-w-screen-xl my-0 mx-auto">{children}</div>
       </main>
       <Footer />
