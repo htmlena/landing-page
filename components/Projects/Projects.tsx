@@ -17,7 +17,7 @@ const Projects: FunctionComponent<ProjectsProps> = ({ projectData }) => {
             className="flex flex-col justify-center items-center px-4 w-full min-w-48 max-w-xs mb-6 md:mb-0"
           >
             <div className="w-full min-w-48 max-w-xs h-44 min-h-44">
-              <div className="w-full h-full relative">
+              <div className="w-full h-full relative inline-block before:block before:absolute before:inset-2.5 before:border before:border-white before:border-solid">
                 <Image
                   className="opacity-60"
                   alt="project illustration"
