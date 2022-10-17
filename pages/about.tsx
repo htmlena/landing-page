@@ -20,13 +20,13 @@ const About: NextPage = () => {
             <h1 className="text-3xl">Lenka Shynkarova</h1>
             <p className="mt-6 max-w-md">
               I am a curious frontend developer with over 1 year of commercial
-              experience for an e-commerce platform. I'm looking for motivating
+              experience for an e-commerce platform. I&apos;m looking for motivating
               work environment and I always strive to create a great web
               experience, learn something new and contribute to the team
               success.
             </p>
             <p className="mt-6 max-w-md">
-              I want to work on my coding skills and I'm curently focusing on
+              I want to work on my coding skills and I&apos;m curently focusing on
               expanding my knowledge of accessibility and UX principles.
             </p>
           </div>
