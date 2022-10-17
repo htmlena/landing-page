@@ -1,15 +1,15 @@
 import { FunctionComponent } from "react";
 
-export type ProjectsCardProps = {
+export type ProjectsProps = {
   projectData: Array<any>;
 };
 
-const ProjectsCard: FunctionComponent<ProjectsCardProps> = ({ projectData }) => {
-  const slicedProjectData = projectData.slice(0, 3);
+const Projects: FunctionComponent<ProjectsProps> = ({ projectData }) => {
+  const firstThreeProjects = projectData.slice(0, 3);
 
   return (
     <>
-      {slicedProjectData.map((project) => {
+      {firstThreeProjects.map((project) => {
         return (
           <h2 key={project.id} className="text-white">
             {project.name}
@@ -20,4 +20,4 @@ const ProjectsCard: FunctionComponent<ProjectsCardProps> = ({ projectData }) => 
   );
 };
 
-export default ProjectsCard;
+export default Projects;

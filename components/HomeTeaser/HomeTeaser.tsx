@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProjectsData from "../ProjectsData/ProjectsData";
-import ProjectsCard from "../ProjectsCard/ProjectsCard";
+import Projects from "../Projects/Projects";
 import Image from "next/image";
 import Link from "next/link";
 import mainPhoto from "../../public/main-photo.jpg";
@@ -43,7 +43,7 @@ const HomeTeaser = () => {
           <h2 className="text-3xl">What I did</h2>
         </div>
         <div className="flex flex-row justify-center items-center mt-5 md:mt-7">
-          <ProjectsCard projectData={projectData} />
+          <Projects projectData={projectData} />
         </div>
       </div>
     </>
