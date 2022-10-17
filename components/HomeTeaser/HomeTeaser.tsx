@@ -24,7 +24,7 @@ const HomeTeaser = () => {
           <Link href="/about">
             <button
               type="button"
-              className="text-white bg-gradient-to-r from-main-light to-main-dark hover:bg-gradient-to-bl font-medium rounded-md text-sm mt-6 px-10 py-2 md:py-1.5 text-center"
+              className="text-white bg-gradient-to-r from-main-light to-main-dark hover:bg-gradient-to-bl font-medium rounded-md text-sm mt-6 px-10 py-2.5 md:py-3 text-center"
             >
               Learn more
             </button>
