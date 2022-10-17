@@ -20,25 +20,25 @@ const About: NextPage = () => {
             <h1 className="text-3xl">Lenka Shynkarova</h1>
             <p className="mt-6 max-w-md">
               I am a curious frontend developer with over 1 year of commercial
-              experience for an e-commerce platform. I&apos;m looking for motivating
-              work environment and I always strive to create a great web
-              experience, learn something new and contribute to the team
+              experience for an e-commerce platform. I&apos;m looking for
+              motivating work environment and I always strive to create a great
+              web experience, learn something new and contribute to the team
               success.
             </p>
             <p className="mt-6 max-w-md">
-              I want to work on my coding skills and I&apos;m curently focusing on
-              expanding my knowledge of accessibility and UX principles.
+              I want to work on my coding skills and I&apos;m curently focusing
+              on expanding my knowledge of accessibility and UX principles.
             </p>
           </div>
           <div className="w-60 h-auto md:max-w-[50%]">
             <Image
               src={mainPhoto}
               alt="Picture of the author"
-              className="w-full"
+              className="w-full rounded-md"
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center mt-14 md:mt-20">
+        <div className="flex flex-col mt-14 md:mt-20">
           <div>
             <h2 className="text-3xl">Skills</h2>
           </div>

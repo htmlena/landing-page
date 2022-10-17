@@ -1,8 +1,13 @@
+import { useState } from "react";
+import ProjectsData from "../ProjectsData/ProjectsData";
+import ProjectsCard from "../ProjectsCard/ProjectsCard";
 import Image from "next/image";
 import Link from "next/link";
 import mainPhoto from "../../public/main-photo.jpg";
 
 const HomeTeaser = () => {
+  const [projectData, setProjectData] = useState(ProjectsData);
+
   return (
     <>
       <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
@@ -10,9 +15,10 @@ const HomeTeaser = () => {
           <h1 className="text-3xl">Lenka Shynkarova</h1>
           <p className="mt-6 max-w-md">
             I am a curious frontend developer with over 1 year of commercial
-            experience for an e-commerce platform. I&apos;m looking for motivating
-            work environment and I always strive to create a great web
-            experience, learn something new and contribute to the team success.
+            experience for an e-commerce platform. I&apos;m looking for
+            motivating work environment and I always strive to create a great
+            web experience, learn something new and contribute to the team
+            success.
           </p>
 
           <Link href="/about">
@@ -28,13 +34,16 @@ const HomeTeaser = () => {
           <Image
             src={mainPhoto}
             alt="Picture of the author"
-            className="w-full"
+            className="w-full rounded-md"
           />
         </div>
       </div>
       <div className="flex flex-col mt-14 md:mt-20">
         <div>
           <h2 className="text-3xl">What I did</h2>
+        </div>
+        <div className="flex flex-row justify-center items-center mt-5 md:mt-7">
+          <ProjectsCard projectData={projectData} />
         </div>
       </div>
     </>
