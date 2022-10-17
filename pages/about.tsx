@@ -42,7 +42,7 @@ const About: NextPage = () => {
           <div>
             <h2 className="text-3xl">Skills</h2>
           </div>
-          <div className="flex flex-row justify-center items-center mt-5 md:mt-7">
+          <div className="flex flex-row justify-center items-center mt-4 md:mt-6">
             <div className="flex justify-center items-center w-20 h-20 md:w-32 md:h-32 px-2 md:px-4">
               <Image src={htmlSkills} alt="html logo" className="w-full" />
             </div>

@@ -6,8 +6,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
   {
     id: 2,
@@ -16,17 +15,16 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
   {
     id: 3,
     name: "Project Placeholder",
     // gitHubUrl: "",
     // url: "",
-    shortDescription: "",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    shortDescription:
+      "Awesome project that I did. It helped me learn this and this",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
   {
     id: 4,
@@ -35,8 +33,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
   {
     id: 5,
@@ -45,8 +42,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
   {
     id: 6,
@@ -55,8 +51,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    // image:
-    //   "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
   },
 ];
 
