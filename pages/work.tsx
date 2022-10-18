@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
 import HeadComponent from "../components/HeadComponent/HeadComponent";
 import Layout from "../components/Layout/Layout";
+import MyWork from "../components/MyWork/MyWork";
 
-const MyWork: NextPage = () => {
+const Work: NextPage = () => {
   return (
     <div>
       <HeadComponent
@@ -11,12 +12,10 @@ const MyWork: NextPage = () => {
       />
 
       <Layout>
-        <div>Work</div>
+        <MyWork />
       </Layout>
-
-      <footer></footer>
     </div>
   );
 };
 
-export default MyWork;
+export default Work;
