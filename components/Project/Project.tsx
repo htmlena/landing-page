@@ -15,10 +15,8 @@ const Project: FunctionComponent<ProjectProps> = ({
   shortDescription,
 }) => {
   return (
-    <Fragment
-      key={key}
-    >
-      <div className="w-full min-w-48 max-w-xs h-44 min-h-44">
+    <Fragment key={key}>
+      <div className="w-full min-w-48 max-w-xs h-44 min-h-44 max-h-44 cursor-pointer">
         <div className="w-full h-full relative inline-block before:block before:absolute before:inset-2.5 before:border before:border-white before:border-solid">
           <Image
             className="opacity-60"
@@ -28,7 +26,7 @@ const Project: FunctionComponent<ProjectProps> = ({
           />
         </div>
       </div>
-      <div className="bg-main-light text-white px-4 py-6">
+      <div className="bg-main-light text-white px-4 py-6 cursor-pointer">
         <h3 className="text-lg">{name}</h3>
         <p className="text-sm pt-4">{shortDescription}</p>
       </div>
