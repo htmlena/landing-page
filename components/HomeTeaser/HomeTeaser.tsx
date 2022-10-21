@@ -48,7 +48,7 @@ const HomeTeaser = () => {
         <Link href="/work">
           <button className="text-sm text-main-light mt-2 md:mt-6 md:flex md:flex-row md:justify-end">
             <span className="pb-1 border-b border-main-light solid">
-              Want to see more projects ➝
+              I want to see more projects ➝
             </span>
           </button>
         </Link>

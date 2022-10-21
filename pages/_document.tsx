@@ -4,6 +4,23 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta
+          property="og:title"
+          content="Lenka Shynkarova - Junior frontend developer"
+        />
+        <meta
+          property="og:image"
+          content="https://htmlena.dev/img/photo5778626709061482195.jpg"
+        />
+        <meta
+          property="og:description"
+          content="A junior frontend developer with over 1 year of commercial experience..."
+        />
+        <meta
+          property="og:url"
+          content="https://landing-page-shynkarova.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
