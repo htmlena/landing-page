@@ -18,7 +18,7 @@ const Project: FunctionComponent<ProjectProps> = ({
 }) => {
   return (
     <Fragment key={key}>
-      <a href={gitHubUrl}>
+      <a rel="noopener" href={gitHubUrl}>
         <div className="w-full min-w-48 max-w-xs h-44 min-h-44 max-h-44 cursor-pointer">
           <div className="w-full h-full relative inline-block before:block before:absolute before:inset-2.5 before:border before:border-white before:border-solid">
             <Image
