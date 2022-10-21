@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <HeadComponent
-        title="Lenka Shynkarova"
+        title="Lenka Shynkarova - Junior frontend developer"
         content="Lenka Shynkarova's landing page"
       />
       <Layout>

@@ -30,7 +30,7 @@ const HomeTeaser = () => {
             </button>
           </Link>
         </div>
-        <div className="w-60 h-auto md:max-w-[50%]">
+        <div className="w-auto sm:w-60 h-auto md:max-w-[50%]">
           <Image
             src={mainPhoto}
             alt="Picture of the author"
@@ -45,6 +45,13 @@ const HomeTeaser = () => {
         <div className="flex flex-row justify-center items-center mt-5 md:mt-7">
           <Projects projectData={projectData} />
         </div>
+        <Link href="/work">
+          <button className="text-sm text-main-light mt-2 md:mt-6 md:flex md:flex-row md:justify-end">
+            <span className="pb-1 border-b border-main-light solid">
+              Want to see more projects ➝
+            </span>
+          </button>
+        </Link>
       </div>
     </>
   );

@@ -22,7 +22,7 @@ const AboutMe = () => {
             expanding my knowledge of accessibility and UX principles.
           </p>
         </div>
-        <div className="w-60 h-auto md:max-w-[50%]">
+        <div className="w-auto sm:w-60 h-auto md:max-w-[50%]">
           <Image
             src={mainPhoto}
             alt="Picture of the author"
