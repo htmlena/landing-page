@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import Image from "next/image";
 import ProjectsData from "../ProjectsData/ProjectsData";
 import Project from "../Project/Project";
+import TopSectionContainer from "../TopSectionContainer/TopSectionContainer";
 
 export type MyWorkProps = {
   projectData: Array<any>;
@@ -9,7 +10,7 @@ export type MyWorkProps = {
 
 const MyWork: FunctionComponent<MyWorkProps> = ({ projectData }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
+    <TopSectionContainer>
       <div className="flex flex-col md:flex-row -mx-4 justify-between items-center md:gap-y-10 flex-wrap">
         {projectData.map((project) => {
           return (
@@ -27,7 +28,7 @@ const MyWork: FunctionComponent<MyWorkProps> = ({ projectData }) => {
           );
         })}
       </div>
-    </div>
+    </TopSectionContainer>
   );
 };
 

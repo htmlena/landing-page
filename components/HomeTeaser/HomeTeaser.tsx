@@ -4,13 +4,15 @@ import Projects from "../Projects/Projects";
 import Image from "next/image";
 import Link from "next/link";
 import mainPhoto from "../../public/main-photo.webp";
+import TopSectionContainer from "../TopSectionContainer/TopSectionContainer";
+import BottomSectionContainer from "../BottomSectionContainer/BottomSectionContainer";
 
 const HomeTeaser = () => {
   const [projectData, setProjectData] = useState(ProjectsData);
 
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
+      <TopSectionContainer>
         <div className="md:max-w-[50%]">
           <h1 className="text-3xl">Lenka Shynkarova</h1>
           <p className="mt-6">
@@ -35,22 +37,21 @@ const HomeTeaser = () => {
             className="w-full rounded-md"
           />
         </div>
-      </div>
-      <div className="flex flex-col mt-14 md:mt-20">
-        <div>
-          <h2 className="text-3xl">What I did</h2>
-        </div>
+      </TopSectionContainer>
+      <BottomSectionContainer heading="What I did">
         <div className="flex flex-row justify-center items-center mt-5 md:mt-7">
           <Projects projectData={projectData} />
         </div>
-        <Link href="/work">
-          <button className="text-sm text-main-light mt-2 md:mt-6 md:flex md:flex-row md:justify-end">
-            <span className="pb-1 border-b border-main-light solid">
-              I want to see more projects ➝
-            </span>
-          </button>
-        </Link>
-      </div>
+        <div className="flex flex-row justify-center md:justify-end">
+          <Link href="/work">
+            <button className="text-sm text-main-light mt-2 md:mt-6">
+              <span className="pb-1 border-b border-main-light solid">
+                I want to see more projects ➝
+              </span>
+            </button>
+          </Link>
+        </div>
+      </BottomSectionContainer>
     </>
   );
 };

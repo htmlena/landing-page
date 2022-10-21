@@ -3,11 +3,13 @@ import htmlSkills from "../../public/html-skills.png";
 import cssSkills from "../../public/css-skills.png";
 import jsSkills from "../../public/js-skills.png";
 import Image from "next/image";
+import TopSectionContainer from "../TopSectionContainer/TopSectionContainer";
+import BottomSectionContainer from "../BottomSectionContainer/BottomSectionContainer";
 
 const AboutMe = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
+      <TopSectionContainer>
         <div className="md:max-w-[50%]">
           <h1 className="text-3xl">Lenka Shynkarova</h1>
           <p className="mt-6">
@@ -29,11 +31,8 @@ const AboutMe = () => {
             className="w-full rounded-md"
           />
         </div>
-      </div>
-      <div className="flex flex-col mt-14 md:mt-20">
-        <div>
-          <h2 className="text-3xl">Skills</h2>
-        </div>
+      </TopSectionContainer>
+      <BottomSectionContainer heading="Skills">
         <div className="flex flex-row justify-center items-center mt-4 md:mt-6">
           <div className="flex justify-center items-center w-20 h-20 md:w-32 md:h-32 px-2 md:px-4">
             <Image src={htmlSkills} alt="html logo" className="w-full" />
@@ -80,7 +79,7 @@ const AboutMe = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </BottomSectionContainer>
     </>
   );
 };
