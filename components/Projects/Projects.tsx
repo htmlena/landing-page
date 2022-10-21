@@ -14,13 +14,15 @@ const Projects: FunctionComponent<ProjectsProps> = ({ projectData }) => {
       {firstThreeProjects.map((project) => {
         return (
           <>
-            <div className="flex flex-col justify-center items-center px-4 w-full min-w-48 max-w-xs mb-6 md:mb-0">
-              <Project
-                key={project.id}
-                image={project.image}
-                name={project.name}
-                shortDescription={project.shortDescription}
-              />
+            <div className="gap-4">
+              <div className="flex flex-col justify-center items-center px-4 w-full min-w-48 max-w-xs mb-6 md:mb-0">
+                <Project
+                  key={project.id}
+                  image={project.image}
+                  name={project.name}
+                  shortDescription={project.shortDescription}
+                />
+              </div>
             </div>
           </>
         );

@@ -15,7 +15,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482194.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482194.jpg",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const ProjectsData = [
     // url: "",
     shortDescription:
       "Awesome project that I did. It helped me learn this and this",
-    image: "https://htmlena.dev/img/photo5778626709061482192.jpg",
+    image: "https://htmlena.dev/img/photo5778626709061482194.jpg",
   },
 ];
 

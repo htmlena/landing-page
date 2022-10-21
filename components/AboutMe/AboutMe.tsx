@@ -10,14 +10,14 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-14 md:mt-20">
         <div className="md:max-w-[50%]">
           <h1 className="text-3xl">Lenka Shynkarova</h1>
-          <p className="mt-6 max-w-md">
+          <p className="mt-6">
             I am a curious frontend developer with over 1 year of commercial
             experience for an e-commerce platform. I&apos;m looking for
             motivating work environment and I always strive to create a great
             web experience, learn something new and contribute to the team
             success.
           </p>
-          <p className="mt-6 max-w-md">
+          <p className="mt-6">
             I want to work on my coding skills and I&apos;m curently focusing on
             expanding my knowledge of accessibility and UX principles.
           </p>
