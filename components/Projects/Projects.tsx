@@ -20,6 +20,7 @@ const Projects: FunctionComponent<ProjectsProps> = ({ projectData }) => {
                   key={project.id}
                   image={project.image}
                   name={project.name}
+                  gitHubUrl={project.gitHubUrl}
                   shortDescription={project.shortDescription}
                 />
               </div>
