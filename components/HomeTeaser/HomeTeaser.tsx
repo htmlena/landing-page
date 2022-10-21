@@ -3,7 +3,7 @@ import ProjectsData from "../ProjectsData/ProjectsData";
 import Projects from "../Projects/Projects";
 import Image from "next/image";
 import Link from "next/link";
-import mainPhoto from "../../public/main-photo.jpg";
+import mainPhoto from "../../public/main-photo.webp";
 
 const HomeTeaser = () => {
   const [projectData, setProjectData] = useState(ProjectsData);

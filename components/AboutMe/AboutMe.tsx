@@ -1,4 +1,4 @@
-import mainPhoto from "../../public/main-photo.jpg";
+import mainPhoto from "../../public/main-photo.webp";
 import htmlSkills from "../../public/html-skills.png";
 import cssSkills from "../../public/css-skills.png";
 import jsSkills from "../../public/js-skills.png";
