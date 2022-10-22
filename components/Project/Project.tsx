@@ -2,7 +2,7 @@ import { Fragment, FunctionComponent } from "react";
 import Image from "next/image";
 
 export type ProjectProps = {
-  key: number;
+  key?: number;
   image: string;
   name: string;
   gitHubUrl: string;
